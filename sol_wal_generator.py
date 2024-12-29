@@ -47,5 +47,5 @@ while True:
         print(f"Wallet saved to {desktop_path}")
         found += 1
 
-    print(f"> {transaction_count} transactions [ {found}/{total} ] {script_filename}\n")
+    print(f"> {transaction_count} transactions [ {found}/{total} ]\n")
     time.sleep(delay)
